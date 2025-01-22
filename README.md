@@ -4,12 +4,12 @@ This branch contains the **backend** of the travel website, which powers the API
 
 ## ✨ Features  
 - **Authentication**: Secure user authentication and session management.  
-- **API Routing**: Endpoints for user login, registration, and data retrieval. (FUTURE ENHANCEMENT 🟡) 
+- **API Routing**: Endpoints for user login, registration, and data retrieval. 🟡FUTURE ENHANCEMENT
 
 ---
 
 ## 🚀 Technologies Used  
-- **Backend Framework**: [Express.js](https://expressjs.com/) for API routing. (FUTURE ENHANCEMENT 🟡) 
+- **Backend Framework**: [Express.js](https://expressjs.com/) for API routing. 🟡FUTURE ENHANCEMENT
 - **Database**: [Firebase](https://firebase.google.com/) for user authentication and data storage.  
 
 ---
@@ -50,7 +50,7 @@ This branch contains the **backend** of the travel website, which powers the API
      ```
 
 5. **Test the API**  
-   - Use tools like [Postman](https://www.postman.com/) to test endpoints at `http://localhost:3000`. (FUTURE ENHANCEMENT 🟡) 
+   - Use tools like [Postman](https://www.postman.com/) to test endpoints at `http://localhost:3000`. 🟡FUTURE ENHANCEMENT
 
 ---
 
