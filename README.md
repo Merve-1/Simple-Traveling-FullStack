@@ -1,69 +1,41 @@
-# 🌍 Full-Stack Travel Website
+# 🌍 Full-Stack Travel Website - Frontend  
 
-A full-stack travel website built to streamline travel experiences. It provides a clean and modern interface for users to log in, sign up, and access a personalized home page.
+This branch contains the **frontend** of the travel website, providing a modern and responsive user interface for travelers.  
 
-## ✨ Features
-- **Login Page**: Users can securely log in to their accounts.
-- **Sign-Up Page**: New users can register with email and password.
-- **Home Page**: Displays a personalized dashboard for travelers.
-
----
-
-## 🎨 Figma Design
-Check out the Figma design for this project [here](https://www.figma.com/design/eqaOdaFCD4302gwVGcQ2Sf/Pages?node-id=0-1&t=fPkZUFvOLtqpxwjR-1).
+## ✨ Features  
+- **Login Page**: Secure login functionality with Firebase authentication.  
+- **Sign-Up Page**: User registration with email and password.  
+- **Home Page**: Personalized dashboard displaying user data and travel options.  
 
 ---
 
-## 🚀 Technologies Used
-- **Frontend**:  
-  - [React](https://reactjs.org/) with [Vite](https://vitejs.dev/) for fast development.
-  - [Sass](https://sass-lang.com/) for styling.
-- **Backend**:  
-  - [Express.js](https://expressjs.com/) for API routing.
-- **Database**:  
-  - [Firebase](https://firebase.google.com/) for user authentication and data storage.
+## 🚀 Technologies Used  
+- **Frontend Framework**: [React](https://reactjs.org/) with [Vite](https://vitejs.dev/) for fast development.  
+- **Styling**: [Sass](https://sass-lang.com/) for modern, maintainable CSS.  
+- **State Management**: React Hooks.  
 
 ---
 
-## 🛠️ Installation Steps
+## 🛠️ Installation Steps  
 
-1. **Clone the Repository**
+1. **Clone the Repository**  
    ```bash
-   git clone https://github.com/Merve-1/full-stack.git
-   cd full-stack
+   git clone -b frontend https://github.com/Merve-1/full-stack.git
+   cd full-stack/frontend
    ```
 
-2. **Set Up the Frontend**
-   - Navigate to the `frontend` folder:
-     ```bash
-     cd frontend
-     ```
-   - Install dependencies:
-     ```bash
-     npm install
-     ```
-   - Start the development server:
-     ```bash
-     npm run dev
-     ```
+2. **Install Dependencies**  
+   ```bash
+   npm install
+   ```
 
-3. **Set Up the Backend**
-   - Navigate to the `backend` folder:
-     ```bash
-     cd backend
-     ```
-   - Install dependencies:
-     ```bash
-     npm install
-     ```
-   - Start the Express server:
-     ```bash
-     npm start
-     ```
+3. **Run the Development Server**  
+   ```bash
+   npm run dev
+   ```
 
-4. **Connect Firebase**
-   - Create a Firebase project and enable authentication (email/password).
-   - Add your Firebase configuration to the frontend in `firebase.js`:
+4. **Connect Firebase**  
+   - Add your Firebase configuration to the `firebase.js` file:  
      ```javascript
      const firebaseConfig = {
        apiKey: "YOUR_API_KEY",
@@ -75,35 +47,9 @@ Check out the Figma design for this project [here](https://www.figma.com/design/
      };
 
      export default firebaseConfig;
-     ```
+     ```  
 
-5. **Run the App**
-   - Ensure both frontend and backend are running.
-   - Open the app in your browser (e.g., `http://localhost:5173`).
-
----
-
-## 📸 GIF Preview
+5. **Open the App**  
+   - Visit the app at `http://localhost:5173` in your browser.  
 
 ---
-
-## 📂 Folder Structure
-```
-project/
-├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── assets/
-│   │   ├── styles/
-│   │   ├── constants/
-│   │   ├── App.jsx
-│   │   ├── Home.jsx
-│   │   └── firebase.js
-│   └── package.json
-├── backend/
-│   ├── function
-│   ├── public
-│   ├── index.js
-│   └── package.json
-└── README.md
-```
