@@ -84,6 +84,8 @@ Check out the Figma design for this project [here](https://www.figma.com/design/
 ---
 
 ## 📸 GIF Preview
+![demo](https://github.com/user-attachments/assets/adcb4516-d18a-4806-82c8-0d0a3817cc04)
+
 
 ---
 
